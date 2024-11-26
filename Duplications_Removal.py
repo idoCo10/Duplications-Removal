@@ -26,6 +26,7 @@ if duplicates:
         total_deleted += (count - 1)  # Subtract 1 to account for keeping the first occurrence
 else:
     print("No duplicates found.")
+    exit()
 
 # Remove duplicates while keeping the first occurrence
 unique_lines = []
